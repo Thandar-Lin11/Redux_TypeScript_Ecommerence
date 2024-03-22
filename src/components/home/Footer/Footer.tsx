@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
             </p>
             <ul className="flex items-center gap-2">
               <a
-                href="https://www.youtube.com/@reactjsBD"
+                href="https://www.youtube.com/channel/UC6awPaj1QuXHfMdd7ayLDbw"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
                 </li>
               </a>
               <a
-                href="https://github.com/noorjsdivs"
+                href="https://github.com/Thandar-Lin11"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -58,7 +58,7 @@ const Footer: React.FC = () => {
                 </li>
               </a>
               <a
-                href="https://www.facebook.com/Noorlalu143/"
+                href="https://www.facebook.com/thandar.lin.378537"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -67,7 +67,7 @@ const Footer: React.FC = () => {
                 </li>
               </a>
               <a
-                href="https://www.linkedin.com/in/noor-mohammad-ab2245193/"
+                href="https://www.linkedin.com/in/thandar-lin-a89b45233"
                 target="_blank"
                 rel="noreferrer"
               >
