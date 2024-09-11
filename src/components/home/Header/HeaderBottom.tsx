@@ -8,7 +8,7 @@ import { useSelector } from "react-redux";
 import { paginationItems } from "../../../constants";
 
 interface Product {
-  _id: number;
+  _id: string;
   img: string;
   productName: string;
   price: string;

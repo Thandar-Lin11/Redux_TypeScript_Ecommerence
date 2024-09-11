@@ -6,6 +6,7 @@ import bannerImgThree from "./banner/bannerImgThree.png";
 import saleImgOne from "./sale/saleImgOne.png";
 import saleImgTwo from "./sale/saleImgTwo.png";
 import saleImgThree from "./sale/saleImgThree.png";
+
 // ============== Products Start here ====================
 // New Arrivals
 import newArrOne from "./products/newArrival/newArrOne.webp";

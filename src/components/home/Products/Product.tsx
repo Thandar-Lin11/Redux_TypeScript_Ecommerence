@@ -22,8 +22,9 @@ interface ProductProps {
 const Product: React.FC<ProductProps> = (props) => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const rootId = props.productName.toLowerCase().split(" ").join("");
-
+  const rootId = props.productName
+    ? props.productName.toLowerCase().split(" ").join("")
+    : "";
   const handleProductDetails = () => {
     navigate(`/product/${rootId}`, {
       state: {

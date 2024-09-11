@@ -22,7 +22,7 @@ const ProductInfo: React.FC<ProductInfoProps> = ({ productInfo }) => {
 
   const addToCartHandler = () => {
     const quantity = 1;
-    dispatch(addToCart({ ...productInfo, quantity, name: "Name" }));
+    dispatch(addToCart({ ...productInfo, quantity, productName: "Name" }));
   };
 
   return (
