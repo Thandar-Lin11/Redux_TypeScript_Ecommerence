@@ -25,6 +25,7 @@ const HeaderBottom: React.FC = () => {
   const [showUser, setShowUser] = useState<boolean>(false);
   const navigate = useNavigate();
   const ref = useRef<HTMLDivElement>(null);
+
   useEffect(() => {
     document.body.addEventListener("click", (e) => {
       if (ref.current && ref.current.contains(e.target as Node)) {
@@ -37,7 +38,6 @@ const HeaderBottom: React.FC = () => {
 
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
-  const [showSearchBar, setShowSearchBar] = useState<boolean>(false);
 
   const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchQuery(e.target.value);
@@ -118,7 +118,6 @@ const HeaderBottom: React.FC = () => {
                             },
                           }
                         );
-                        setShowSearchBar(true);
                         setSearchQuery("");
                       }}
                       key={item._id}

@@ -16,7 +16,7 @@ const Banner: React.FC = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    beforeChange: (prev, next) => {
+    beforeChange: (next) => {
       setDotActive(next);
     },
     appendDots: (dots) => (

@@ -12,7 +12,7 @@ interface CategoryProps {
   icons: boolean;
 }
 
-const Category: React.FC<CategoryProps> = ({ icons }) => {
+const Category: React.FC<CategoryProps> = () => {
   const [showSubCatOne, setShowSubCatOne] = useState<boolean>(false);
   const items: Item[] = [
     {
